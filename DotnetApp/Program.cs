@@ -16,7 +16,7 @@ app.UseHttpsRedirection();
 
 // Simple endpoints
 // `GET /` - Returns a greeting message
-app.MapGet("/", () => "Hello from .NET in Docker!")
+app.MapGet("/", () => ".net App!")
     .WithName("GetGreeting")
     .WithOpenApi();
 
